@@ -1,0 +1,385 @@
+@font-face {
+  font-family: post;
+  src: url(/public/fonts/postnobillscolombo-regular.ttf);
+}
+@font-face {
+  font-family: poppins;
+  src: url(/public/fonts/Poppins-Regular.ttf);
+}
+/* body {
+  overflow-x: hidden;
+} */
+
+.navbar a{
+  color: #0DDB21;
+  font-size: 1.8vw;
+  font-weight: bold;
+}
+.navbar a:hover{
+  color: #0DDB21;
+}
+.navbar-brand img{
+  display: none;
+}
+ 
+.nav-ul {
+  width: 100%;
+  align-items: center;
+  gap:10%;
+  display: flex;
+  justify-content: center;
+}
+.nav-phone{
+  width: 15%;
+}
+.nav-location{
+  width: 10%;
+}
+.nav-item a{
+font-family: poppins;
+}
+.nav-item p{
+  font-family: post;
+  font-weight: bold;
+  color: #0DDB21;
+  font-size: 2vw;
+}
+/* .nav-logo {
+  width: 10%;
+} */
+.nav-logo img{
+  width: 100%;
+}
+.nav-item-logo{
+  width: 20%;
+}
+
+
+
+/* Hero Section */
+
+.HeroContent{
+  margin: 18% 5%;
+  margin-bottom: 10%;
+  font-family: poppins;
+  color: white;
+}
+.HeroContent h2{
+  font-weight: bold;
+  font-size: 3.4vw;
+}
+.HeroContent button{
+  border-radius:24px;
+  font-size: 1.8vw;
+  color: white;
+  background-color: #0DDB21;
+  border: none;
+}
+.HeroContent button:hover{
+  background-color: #0D458A;
+}
+.hero-con{
+  background-image: url(/public/images/uk-house.png);
+  background-size: cover;
+  background-position: center;
+  /* width: 97%; */
+}
+.con-row{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-con{
+  
+background-image: url(/public/images/form-cover.png);
+background-position:contain;
+background-size: cover;
+width: 100%;
+
+}
+.form-con h2{
+  font-size: 2.5vw;
+  color: white;
+  font-family: poppins;
+  font-weight: bold;
+}
+.form-con p{
+  color: white;
+  font-family: poppins;
+  font-size: 1.2vw;
+}
+.form-row{
+  background-color:rgba(13, 69, 138, 0.42);
+  padding: 7% 0;
+}
+.offcanvas-title{
+  font-weight: bold;
+  font-family: post;
+  color: #0D458A;
+}
+
+
+/* Our Service */
+.service h2{
+  font-family: poppins;
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #0DDB21;
+}
+.service h2 span{
+  color: #0D458A;;
+}
+.service p{
+  font-weight: bold;
+  font-size: 1.5vw;
+ 
+}
+.service-slider img{
+  width: 70%;
+  height: 80%;
+  margin-top: 15%;
+  position: relative;
+}
+
+.service-slider p{
+  font-size: 2.6vw;
+  padding: 0 15%;
+  font-family: poppins;
+  color: white;
+}
+.service-slider{
+  background-image: url(/public/images/service-cover.png);
+  background-size: cover;
+  background-position: center;
+  /* width: 100%; */
+  overflow-x: hidden;
+}
+.service-slider-row{
+  background: rgba(13, 69, 138, 0.9);
+}
+
+/* About US */
+.about h2{
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #0DDB21;
+}
+.about h2 span{
+  color: #0D458A;
+}
+  .about p{
+    
+    text-align: justify;
+    font-size: 1.5vw;
+    font-weight: 500;
+    width: 80%;
+    margin: 0 50%;
+    transform: translateX(-50%);
+  }
+  .about-paragraph{
+    margin-top: 3% ;
+  }
+  /* Footer */
+  .footer-logo img{
+    width: 50%;
+  }
+.footer-row1{
+  background-color: #0D458A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3% 0;
+}
+.footer-row1 h2{
+  font-family: poppins;
+  color: white;
+  font-size: 2vw;
+  font-weight: 600;
+}
+.footer-row1 p{
+  font-family: poppins;
+  color:#0DDB21;
+  font-size:1.5vw;
+
+}
+.footer-row-2{
+  background-color: #0DDB21;
+  color: white;
+ }
+ .footer-row-2 h5{
+ font-size: 1.5vw;
+  font-family: poppins;
+  padding-top: 2%;
+  padding-bottom: 1%;
+ }
+ .footer-button-row{
+  background-color: #0D458A;
+ }
+ .footer-button-row button{
+  margin-bottom: 1%;
+  background-color: #0DDB21;
+  border: none;
+ }
+ .poster-con{
+  
+  border: 13px solid #0D458A;
+  
+  border-radius: 10px;
+ padding: 3% 0;
+
+ }
+ .main-service{
+  padding-bottom: 5%;
+ }
+ .main-service h2{
+  color: #0DDB21;
+  font-family: poppins;
+  font-weight: bold;
+  padding: 1% 0;
+ }
+ .main-service h2 span{
+  color: #0D458A;
+ }
+ 
+ 
+ @media screen and (min-width: 577px) and (max-width: 992px) {
+
+  .nav-logo{
+    display: none;
+  }
+  .navbar-brand img{
+    display: block;
+    width: 60%;
+   
+    
+  }
+  .navbar-brand{
+    width: 50%;
+    padding-left: 5%;
+  }
+.HeroContent button{
+  font-size: 3vw;
+}
+.form-con h2{
+  font-size: 4vw;
+}
+.form-con p{
+  font-size: 3vw;
+}
+.service h2{
+  font-size: 4vw;
+}
+.service p{
+  font-size: 2.5vw;
+}
+.about h2{
+  font-size: 4vw;
+}
+.about p{
+  font-size: 2.5vw;
+}
+
+.footer-row1 h2{
+  font-size: 3vw;
+ }
+ .footer-row1 p{
+  font-size: 2vw;
+ }
+ .footer-row-2 h5{
+  font-size: 2vw;
+ }
+ .footer-logo img{
+  width: 60%;
+}
+
+
+
+ }
+
+
+  @media screen and (max-width: 576px) {
+    body{
+      overflow-x: hidden;
+    }
+    .nav-item a{
+      font-size: 3.5vw;
+    }
+    .nav-logo{
+      display: none;
+    }
+    .navbar-brand img{
+      display: block;
+      width: 90%;
+      
+    }
+    .offcanvas {
+      --bs-offcanvas-width: 80%;
+      width: var(--bs-offcanvas-width);
+    }
+    
+    
+   
+    .navbar-brand{
+      width: 50%;
+      padding-left: 5%;
+    }
+    .HeroContent{
+      margin-left:0 ;
+      margin-right:0 ;
+    }
+
+    .HeroContent h2{
+      font-size: 7vw;
+    }
+    .HeroContent button{
+      font-size: 5vw;
+    }
+    .form-con h2{
+      font-size: 7vw;
+    }
+    .form-con p{
+      font-size: 5vw;
+    }
+    .form-con iframe{
+      width: 90%;
+    }
+    .service h2{
+      font-size: 7vw;
+    }
+    .service p{
+      font-size: 5vw;
+    }
+    .service-slider p{
+      font-size: 5vw;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .service-slider img{
+      width: 100%;
+      height: auto;
+    }
+    .about h2{
+      font-size: 7vw;
+    }
+    .about p{
+      font-size: 5vw;
+      width: 90%;
+   } 
+   .about-paragraph{
+    margin-top: 7%;
+   }
+   .footer-row1 h2{
+    font-size: 5.5vw;
+   }
+   .footer-row1 p{
+    font-size: 4vw;
+   }
+   .footer-row-2 h5{
+    font-size: 4vw;
+   }
+   
+   
+  }
+
+
+
+
